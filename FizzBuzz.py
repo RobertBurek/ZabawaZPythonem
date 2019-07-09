@@ -14,7 +14,7 @@ for i in range(1,101):
 
 print('')
 print('W drugą strone:')
-print('')
+print('') 
 
 wynik=''
 for i in range(0,100):
