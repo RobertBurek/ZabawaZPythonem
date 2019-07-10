@@ -213,15 +213,17 @@
 
 # silnia(20)
 
-osoba = {
-    'imie': 'Robert',
-    'nazwisko': 'Burek',
-    'rokUrodzenia': 1977
-}
+# osoba = {
+#     'imie': 'Robert',
+#     'nazwisko': 'Burek',
+#     'rokUrodzenia': 1977
+# }
 
-print(osoba['imie'])
-print(osoba['nazwisko'])
-print(osoba['rokUrodzenia'])
+# print(osoba['imie'])
+# print(osoba['nazwisko'])
+# print(osoba['rokUrodzenia'])
 
-osoba['rokUrodzenia'] = 1970
-print(osoba)
+# osoba['rokUrodzenia'] = 1970
+# print(osoba)
+
+
