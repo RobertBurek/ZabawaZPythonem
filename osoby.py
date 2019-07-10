@@ -59,6 +59,17 @@ def osobyUrodzonePo(rokUrodzenia):
     wypiszBaze(nowaBazaOsob)
 
 
+def zmienDaneOsoby(osoba, noweImie, noweNazwisko, nowyRokUrodzenia):
+    if not osoba in osoby:
+        print('Nie ma takiej osoby')
+    else:
+        index = osoby.index(osoba)
+        osoby[index]['imie'] = noweImie
+        osoby[index]['nazwisko'] = noweNazwisko
+        osoby[index]['rokUrodzenia'] = nowyRokUrodzenia
+
+
+
 def dodawanieOsobyKlawiatura():
     koniec=False
     while koniec==False:
@@ -83,6 +94,13 @@ print('             Próba dodania osoby o tych samych danych')
 print('---------------------------------------------------------------------')
 print('Osoba:  Robert Burek (1970)')
 dodajOsobe('Robert', 'Burek', 1970)
+# Zmiana danych osoby
+print('---------------------------------------------------------------------')
+print('                     Zmiana danychosoby')
+print('---------------------------------------------------------------------')
+print('Osoba:  Robert Burek (1970)')
+print('Nowe:  Marian Burek (1980)')
+zmienDaneOsoby(osoba1,"Marian",'Burek',1980)
 # Dodanie nowej osoby
 print('---------------------------------------------------------------------')
 print('                       Dodanie nowej osoby')
@@ -97,4 +115,7 @@ wypiszBaze(osoby)
 # Wyszukanie osób urodzony po 1980
 osobyUrodzonePo(1980)
 # Dodanie osoby z klawiatury
+print('---------------------------------------------------------------------')
+print('                     Dodanie osoby z klawiatury')
+print('---------------------------------------------------------------------')
 dodawanieOsobyKlawiatura()
