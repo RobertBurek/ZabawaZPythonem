@@ -1,3 +1,0 @@
-Taka sobie zabawa w Pythonie 
-proste przykłady w celach poznawczych
-Nawet fajny ten Python!!!
