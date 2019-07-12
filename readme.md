@@ -3,4 +3,4 @@
 ## Kilka drobnych programików w Pythonie
 Dla poznania Pythona, kilka drobnych programików
 
-licencja
+Tutaj moja wizytówka [Robert Burek](https://robertburek.pl)
